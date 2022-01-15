@@ -15,7 +15,6 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name="cliente")
 public class Cliente {
 	
 	@EqualsAndHashCode.Include
